@@ -1,0 +1,17 @@
+{
+    "name": "a123/php",
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "A123\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damenjo Sitepu",
+            "email": "damenstory@gmail.com"
+        }
+    ]
+}

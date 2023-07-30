@@ -16,7 +16,12 @@ class Number {
         $this->numArr = $numArr;
     }
 
-
+    /**
+     * Slowest Way Using For Loop To Find N Number Which Is The Target Number
+     *
+     * @param integer $numberTarget
+     * @return string
+     */
     public function findWithSlowestWay(int $numberTarget): string
     {
         // TODO: Detect if array not empty, do check it one by one
@@ -54,3 +59,7 @@ echo (new Number([14]))->findWithSlowestWay(10) . "\n";
 echo (new Number([14,10,20]))->findWithSlowestWay(10) . "\n";
 // Test Case 5
 echo (new Number([14,15,20,10,56]))->findWithSlowestWay(10) . "\n";
+// Test Case 6
+echo (new Number([14,15,20,10,56]))->findWithSlowestWay(10) . "\n";
+// Test Case 7
+echo (new Number([14,15,20,10,56]))->findWithSlowestWay(11) . "\n";
